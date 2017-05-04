@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C40DBE531EBA7D4800B198B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DBE521EBA7D4800B198B9 /* main.m */; };
+		C40DBE5B1EBA7D8700B198B9 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DBE5A1EBA7D8700B198B9 /* FoodTruck.m */; };
+		C40DBE5E1EBA853200B198B9 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DBE5D1EBA853200B198B9 /* Cook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		C40DBE4F1EBA7D4800B198B9 /* Assingment#9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assingment#9"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40DBE521EBA7D4800B198B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40DBE591EBA7D8700B198B9 /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		C40DBE5A1EBA7D8700B198B9 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		C40DBE5C1EBA853200B198B9 /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		C40DBE5D1EBA853200B198B9 /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C40DBE521EBA7D4800B198B9 /* main.m */,
+				C40DBE591EBA7D8700B198B9 /* FoodTruck.h */,
+				C40DBE5A1EBA7D8700B198B9 /* FoodTruck.m */,
+				C40DBE5C1EBA853200B198B9 /* Cook.h */,
+				C40DBE5D1EBA853200B198B9 /* Cook.m */,
 			);
 			path = "Assingment#9";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40DBE531EBA7D4800B198B9 /* main.m in Sources */,
+				C40DBE5B1EBA7D8700B198B9 /* FoodTruck.m in Sources */,
+				C40DBE5E1EBA853200B198B9 /* Cook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
